@@ -1,0 +1,24 @@
+#out {
+  margin-top: 30px;
+}
+.main{
+  background-image: linear-gradient(to right top, #b2c4df, #a4bfc9, #92adac, #a4d1b8, #c2cfa5);
+}
+.text-center{
+  margin-top: 110px;
+  margin-bottom: 60px;
+}
+.checkbox{
+  margin-bottom: 20px;
+}
+.check{
+  margin-bottom: 60px;
+}
+.btn{
+  margin-bottom: 18px;
+}
+.summary{
+  font-family: 'Source Sans Pro', sans-serif ;
+  font-size: 15px;
+  line-height: 24px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Password Generator</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+   
+  </head>
+  <body>
+    <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class= "col-lg-12">
+          <h1 class="text-center">Password Generator</h1>
+        </div>  
+      </div>
+
+      <div class="row">
+        <div slass="col-lg-12">          <form>
+            <div class="form-group">
+              <label for="set-1">Number of Sings(<span id="password-length">10</span>)</label>
+              <input type="range" class="form-control" id="set-1" value="10" max="50">
+            </div>
+            <div class="check">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="set-2"checked> Numeral
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="set-3"checked> Lowercase
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="set-4"> Uppercase
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="set-5"> Specail symbol
+              </label>
+            </div>
+          </div>
+           <div class="btn"><button type="button" class="btn btn-default" id="generator"> Generate </button></div> 
+         </form>
+        </div>
+      </div>
+      <div class="summary">
+    <div class="row">
+      <div class= "col-lg-12">
+        <div id="out">
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/generator.js"></script>
+  </div>
+  </body>
+</html>
